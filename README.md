@@ -10,7 +10,9 @@ I map the AI landscape by turning 260+ industry reports into an [interactive kno
 
 Everything public here is MIT licensed.
 
-**Stack:** Python · TypeScript · Shell 🦞
+📫 luosongred@gmail.com
+
+**Stack:** Python · TypeScript · JavaScript · Shell · HTML/CSS 🦞
 
 ---
 
