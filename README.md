@@ -1,8 +1,12 @@
 # Hi, I'm Song Luo
 
+*I am the Technical Staff of Myself.*
+
 I build AI-agent tooling, research maps, and content-intelligence workflows.
 
-This profile now reflects the current shape of my work: original tools, production-style OpenClaw skills, and a few forks or research mirrors that I use to study and extend the agent ecosystem from the inside.
+This page is still meant to feel a little like a one-person technical org chart: part builder log, part project map, part proof that the joke is only barely a joke.
+
+Most of the public work here sits at the intersection of agent infrastructure, AI research, and hands-on tooling: packaging agent environments, mapping the AI landscape, building production-style OpenClaw skills, and studying upstream agent systems from the inside.
 
 Email: `luosongred@gmail.com`
 
