@@ -2,11 +2,11 @@
 
 *I am the Technical Staff of Myself.*
 
-I build AI-agent tooling, research maps, and content-intelligence workflows.
+I build tools for **AI agents**, from knowledge visualization and modular skills to agent packaging and security infrastructure.
 
-This page is still meant to feel a little like a one-person technical org chart: part builder log, part project map, part proof that the joke is only barely a joke.
+I work at the intersection of **AI research, agent infrastructure, and hands-on tooling.**
 
-Most of the public work here sits at the intersection of agent infrastructure, AI research, and hands-on tooling: packaging agent environments, mapping the AI landscape, building production-style OpenClaw skills, and studying upstream agent systems from the inside.
+I map the AI landscape by turning 263 industry reports into an [interactive knowledge graph](https://github.com/rrrrrredy/ai-knowledge-graph) with nearly 4,000 nodes. I build infrastructure that makes agents portable and operational, from [environment packaging](https://github.com/rrrrrredy/agentbox) to a growing set of modular skills covering search, scraping, memory, security, and media workflows. And I dig into how leading agent systems work under the hood, contributing to [OpenClaw](https://github.com/rrrrrredy/openclaw) and studying projects like [OpenCLI](https://github.com/rrrrrredy/opencli), [Hermes Agent](https://github.com/rrrrrredy/hermes-agent), and [Claude Code's architecture](https://github.com/rrrrrredy/claude-code-source-code).
 
 Email: `luosongred@gmail.com`
 
