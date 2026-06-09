@@ -2,11 +2,17 @@
 
 *I am the Technical Staff of Myself.*
 
-I build tools for **AI agents**, from knowledge visualization and modular skills to agent packaging and security infrastructure.
+I am an **AI Agent researcher and engineer** building practical harnesses for agents: the runtime, tool-use, memory, web access, skill execution, context packaging, safety, and evaluation layers that turn agents from demos into working systems.
 
-I work at the intersection of **AI research, agent infrastructure, and hands-on tooling.**
+My work sits between **agent research, infrastructure engineering, and hands-on product building**.
 
-I map the AI landscape by turning 263 industry reports into an [interactive knowledge graph](https://github.com/rrrrrredy/ai-knowledge-graph) with nearly 4,000 nodes. I build infrastructure that makes agents portable and operational, from [environment packaging](https://github.com/rrrrrredy/agentbox) to a growing set of modular skills covering search, scraping, memory, security, and media workflows. And I dig into how leading agent systems work under the hood, contributing to [OpenClaw](https://github.com/rrrrrredy/openclaw) and studying projects like [OpenCLI](https://github.com/rrrrrredy/opencli), [Hermes Agent](https://github.com/rrrrrredy/hermes-agent), and [Claude Code's architecture](https://github.com/rrrrrredy/claude-code-source-code).
+By **agent harness**, I mean the environment around an AI agent: how it searches, reads, remembers, uses tools, runs modular skills, audits itself, evaluates outputs, and carries context across sessions. I build these systems directly, then use them to study how agents behave in real workflows.
+
+Recently, I have been building a practical **SkillOps and agent harness stack**. This includes modular skills for web access, social and content extraction, transcription, research monitoring, persistent memory, skill security scanning, and agent self-audit. I also study and contribute around agent runtimes such as [OpenClaw](https://github.com/rrrrrredy/openclaw), [OpenCLI](https://github.com/rrrrrredy/opencli), [AgentBox](https://github.com/rrrrrredy/agentbox), and [Hermes Agent](https://github.com/rrrrrredy/hermes-agent).
+
+On the research side, I map and operationalize AI knowledge. I built an [AI knowledge graph](https://github.com/rrrrrredy/ai-knowledge-graph) from industry reports, work on AI talent and job monitoring tools, and maintain research workflows that help agents follow fast-moving AI systems, companies, papers, and people.
+
+I also build private experimental games, using games as a way to explore interaction design, simulation, character behavior, and agent-driven experiences.
 
 Email: `luosongred@gmail.com`
 
@@ -14,63 +20,54 @@ Stack: Python / TypeScript / JavaScript / Shell / HTML/CSS
 
 ## Current Focus
 
-- [OpenClaw](https://github.com/rrrrrredy/openclaw): upstream contribution workspace focused on CLI/DX and agent runtime details.
-- [AgentBox](https://github.com/rrrrrredy/agentbox): portable packaging for agent settings, skills, memory, and session context.
-- [AI Knowledge Graph](https://github.com/rrrrrredy/ai-knowledge-graph): interactive AI ecosystem map built from 263 reports. [Demo](https://rrrrrredy.github.io/ai-knowledge-graph)
-- [AI Personality Test](https://github.com/rrrrrredy/ai-personality-test): a deployable static quiz with Cloudflare Pages monitoring. [Site](https://ai-personality-test.pages.dev/)
-- [AI Info Radar](https://github.com/rrrrrredy/ai-info-radar): media discovery and digest workflows across 50+ AI sources.
-
-## Upstream Work
-
-I actively work through upstream agent codebases instead of only reading about them.
-
-- [openclaw](https://github.com/rrrrrredy/openclaw): recent work centers on cron UX, help output, and clearer memory-search failures.
-- [opencli](https://github.com/rrrrrredy/opencli): universal CLI hub for websites, Electron apps, and local tools.
-- [hermes-agent](https://github.com/rrrrrredy/hermes-agent): self-improving agent framework from Nous Research that I track and study.
-- [claude-code-source-code](https://github.com/rrrrrredy/claude-code-source-code): source snapshot kept for architecture research and study.
+- **AI Agent Harnesses**: tool use, memory, execution, context packaging, safety checks, and evaluation loops for practical agents.
+- [SkillOps](https://github.com/rrrrrredy/skillops-paper): a framework for designing, testing, and operating modular skills in personal AI agents.
+- [OpenClaw Skills](https://github.com/rrrrrredy?tab=repositories): installable skills for search, scraping, transcription, monitoring, memory, security, and agent operations.
+- [AI Knowledge Graph](https://github.com/rrrrrredy/ai-knowledge-graph): turning AI industry reports into an interactive ecosystem map.
+- **Private AI Games**: experimental game systems exploring agents, interaction loops, and simulation-driven experiences.
 
 ## Project Map
 
-### Agent Infrastructure
+### Agent Harness and Runtime
 
-- [agentbox](https://github.com/rrrrrredy/agentbox): portable export/import for agent environments.
-- [openclaw](https://github.com/rrrrrredy/openclaw): upstream contribution workspace for the OpenClaw personal AI assistant.
-- [opencli](https://github.com/rrrrrredy/opencli): universal CLI hub for websites, Electron apps, and local tools.
-- [hermes-agent](https://github.com/rrrrrredy/hermes-agent): self-improving agent framework that I track and study.
-- [claude-code-source-code](https://github.com/rrrrrredy/claude-code-source-code): source snapshot for architecture research and study.
+- [AgentBox](https://github.com/rrrrrredy/agentbox): portable packaging for agent settings, skills, memory, and session context.
+- [OpenClaw](https://github.com/rrrrrredy/openclaw): contribution and research workspace for personal AI agent runtime design.
+- [OpenCLI](https://github.com/rrrrrredy/opencli): a universal CLI hub for websites, Electron apps, and local tools.
+- [Hermes Agent](https://github.com/rrrrrredy/hermes-agent): agent runtime study and exploration around self-improving agent systems.
+- [web-access](https://github.com/rrrrrredy/web-access): browser automation, web search, and direct HTTP access for agents.
 
-### AI Research, Talent, and Market Intelligence
+### SkillOps, Memory, and Safety
 
-- [ai-knowledge-graph](https://github.com/rrrrrredy/ai-knowledge-graph): interactive knowledge graph of the AI ecosystem.
-- [ai-info-radar](https://github.com/rrrrrredy/ai-info-radar): AI news and media radar across 50+ sources.
-- [ai-talent-graph](https://github.com/rrrrrredy/ai-talent-graph): academic researcher profiling with OpenAlex, arXiv, Semantic Scholar, and ORCID.
-- [ai-talent-radar](https://github.com/rrrrrredy/ai-talent-radar): recruitment-oriented talent search combining research, GitHub, and Chinese platforms.
-- [agent-job-monitor](https://github.com/rrrrrredy/agent-job-monitor): daily monitoring of agent and LLM job openings across major AI companies.
-- [ai-personality-test](https://github.com/rrrrrredy/ai-personality-test): static AI personality quiz with monitoring and analytics.
+- [skillops-paper](https://github.com/rrrrrredy/skillops-paper): research paper and artifacts for designing, testing, and operating modular skills in personal AI agents.
+- [skill-design-guide](https://github.com/rrrrrredy/skill-design-guide): methodology and QA patterns for building production-grade agent skills.
+- [persistent-memory](https://github.com/rrrrrredy/persistent-memory): long-term agent memory through daily logs, structured facts, and compact session memory.
+- [skill-security-guard](https://github.com/rrrrrredy/skill-security-guard): security scanner for agent skills, including prompt-injection and unsafe-code checks.
+- [agent-self-audit](https://github.com/rrrrrredy/agent-self-audit): health checks for agent memory, skills, cron jobs, config, and runtime state.
+- [lobster-guard](https://github.com/rrrrrredy/lobster-guard): identity and safety guardrails for agent behavior in group-chat settings.
 
-### Content Access and Extraction
+### Information Access Harness
 
-- [all-net-search-read](https://github.com/rrrrrredy/all-net-search-read): search and distill content across WeChat, Xiaohongshu, X, YouTube, Reddit, Bilibili, and Weibo.
-- [web-access](https://github.com/rrrrrredy/web-access): browser automation, search, and direct HTTP access for agents.
-- [wechat-reader](https://github.com/rrrrrredy/wechat-reader): convert WeChat Official Account articles to Markdown.
-- [x-twitter-scraper](https://github.com/rrrrrredy/x-twitter-scraper): public X/Twitter scraping for profiles, timelines, and tweets.
-- [weibo-scraper](https://github.com/rrrrrredy/weibo-scraper): public Weibo extraction without login.
-- [bilibili-video](https://github.com/rrrrrredy/bilibili-video): Bilibili download and local audio transcription.
-- [xiaoyuzhou-podcast](https://github.com/rrrrrredy/xiaoyuzhou-podcast): Xiaoyuzhou podcast fetch, transcription, and summarization.
-- [book-hunter](https://github.com/rrrrrredy/book-hunter): ebook discovery across Z-Library and Anna's Archive.
+- [all-net-search-read](https://github.com/rrrrrredy/all-net-search-read): cross-platform search and content extraction across WeChat, Xiaohongshu, X, YouTube, Reddit, Bilibili, and Weibo.
+- [x-twitter-scraper](https://github.com/rrrrrredy/x-twitter-scraper): public X/Twitter profile, timeline, and full-tweet extraction without login.
+- [wechat-reader](https://github.com/rrrrrredy/wechat-reader): WeChat Official Account article reading and Markdown conversion.
+- [weibo-scraper](https://github.com/rrrrrredy/weibo-scraper): public Weibo content extraction without login.
+- [bilibili-video](https://github.com/rrrrrredy/bilibili-video): Bilibili video download and local transcription.
+- [xiaoyuzhou-podcast](https://github.com/rrrrrredy/xiaoyuzhou-podcast): Xiaoyuzhou podcast fetching, local transcription, and structured summarization.
+- [book-hunter](https://github.com/rrrrrredy/book-hunter): ebook discovery across Z-Library and Anna's Archive metadata sources.
 
-### Memory, Security, and Agent Ops
+### AI Research and Intelligence Systems
 
-- [persistent-memory](https://github.com/rrrrrredy/persistent-memory): 3-layer memory distillation for long-term agent memory.
-- [agent-self-audit](https://github.com/rrrrrredy/agent-self-audit): 8-point health check for OpenClaw agents.
-- [lobster-guard](https://github.com/rrrrrredy/lobster-guard): identity and prompt-injection guardrails for group-chat agents.
-- [skill-security-guard](https://github.com/rrrrrredy/skill-security-guard): skill code security scanner with A-F ratings.
-- [skill-design-guide](https://github.com/rrrrrredy/skill-design-guide): methodology and linting for building production-grade skills.
+- [ai-knowledge-graph](https://github.com/rrrrrredy/ai-knowledge-graph): interactive AI ecosystem graph built from industry reports and research material.
+- [ai-info-radar](https://github.com/rrrrrredy/ai-info-radar): AI news and resource discovery across media, blogs, podcasts, books, and social platforms.
+- [ai-talent-graph](https://github.com/rrrrrredy/ai-talent-graph): academic AI scholar profiling with OpenAlex, arXiv, Semantic Scholar, and ORCID.
+- [ai-talent-radar](https://github.com/rrrrrredy/ai-talent-radar): recruitment-oriented AI talent search combining research, GitHub, and Chinese platforms.
+- [agent-job-monitor](https://github.com/rrrrrredy/agent-job-monitor): daily Agent/LLM job monitoring across major AI companies.
 
-### Creative Tools and Prompt Libraries
+### Creative and Interactive Systems
 
-- [NanoBanana-PPT-Skills](https://github.com/rrrrrredy/NanoBanana-PPT-Skills): AI-generated PPT visuals and transition videos.
-- [Youtube-clipper-skill](https://github.com/rrrrrredy/Youtube-clipper-skill): semantic YouTube clipping, subtitle translation, and repackaging.
-- [guizang-s-prompt](https://github.com/rrrrrredy/guizang-s-prompt): prompt library spanning image, text, and video generation.
+- Private AI games: experimental game systems exploring agents, interaction loops, simulation, and character behavior.
+- [AI Personality Test](https://github.com/rrrrrredy/ai-personality-test): a lightweight AI-culture quiz and deployable static web experience.
+- [NanoBanana-PPT-Skills](https://github.com/rrrrrredy/NanoBanana-PPT-Skills): AI-generated PPT visuals, transitions, and video presentation workflows.
+- [Youtube-clipper-skill](https://github.com/rrrrrredy/Youtube-clipper-skill): semantic video clipping, bilingual subtitles, and content repackaging workflows.
 
-This account is where I build, test, and document how AI agents can search, read, remember, operate tools, and package their own working context.
+This account is where I research and build the harness around AI agents: how they search, read, remember, use tools, run skills, evaluate outputs, and operate safely across real workflows.
