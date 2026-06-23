@@ -16,6 +16,8 @@ I also build private experimental games, using games as a way to explore interac
 
 Email: `luosongred@gmail.com`
 
+X: [@rrrrrredy](https://x.com/rrrrrredy?s=11&t=UpoFMYkQiMDxov1vZTZP1A)
+
 Stack: Python / TypeScript / JavaScript / Shell / HTML/CSS
 
 ## Current Focus
