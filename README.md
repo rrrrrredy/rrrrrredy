@@ -26,7 +26,7 @@ Stack: Python / TypeScript / JavaScript / Shell / HTML/CSS
 - [SkillOps](https://github.com/rrrrrredy/skillops-paper): a framework for designing, testing, and operating modular skills in personal AI agents.
 - [OpenClaw Skills](https://github.com/rrrrrredy?tab=repositories): installable skills for search, scraping, transcription, monitoring, memory, security, and agent operations.
 - [AI Knowledge Graph](https://github.com/rrrrrredy/ai-knowledge-graph): turning AI industry reports into an interactive ecosystem map.
-- [Longform Industry Narrative Research](https://github.com/rrrrrredy/longform-industry-narrative-research): a Codex skill for source-backed longform industry narrative research and publishable Chinese/English articles. / 用于长篇产业叙事研究、资料台账、公司逐个分析和终稿去过程化写作的 Codex skill。
+- [Longform Industry Narrative Research](https://github.com/rrrrrredy/longform-industry-narrative-research): an agent skill for source-backed longform industry narrative research and publishable Chinese/English articles, packaged in a Codex-compatible format. / 适用于 AI agent 的长篇产业叙事研究 skill，用于资料台账、公司逐个分析和终稿去过程化写作，当前以 Codex-compatible 格式打包。
 - **Private AI Games**: experimental game systems exploring agents, interaction loops, and simulation-driven experiences.
 
 ## Project Map
@@ -65,7 +65,7 @@ Stack: Python / TypeScript / JavaScript / Shell / HTML/CSS
 - [ai-talent-graph](https://github.com/rrrrrredy/ai-talent-graph): academic AI scholar profiling with OpenAlex, arXiv, Semantic Scholar, and ORCID.
 - [ai-talent-radar](https://github.com/rrrrrredy/ai-talent-radar): recruitment-oriented AI talent search combining research, GitHub, and Chinese platforms.
 - [agent-job-monitor](https://github.com/rrrrrredy/agent-job-monitor): daily Agent/LLM job monitoring across major AI companies.
-- [longform-industry-narrative-research](https://github.com/rrrrrredy/longform-industry-narrative-research): Codex skill for turning large source sets, interviews, podcasts, company materials, and counter-narratives into clean publishable industry research. / 将大量资料、访谈、播客、公司材料和反叙事整理为可发布产业研究长文的 Codex skill。
+- [longform-industry-narrative-research](https://github.com/rrrrrredy/longform-industry-narrative-research): agent skill for turning large source sets, interviews, podcasts, company materials, and counter-narratives into clean publishable industry research. / 将大量资料、访谈、播客、公司材料和反叙事整理为可发布产业研究长文的通用 agent skill。
 
 ### Creative and Interactive Systems
 
