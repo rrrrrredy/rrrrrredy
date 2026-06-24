@@ -12,6 +12,8 @@ Recently, I have been building a practical **SkillOps and agent harness stack**.
 
 On the research side, I map and operationalize AI knowledge. I built an [AI knowledge graph](https://github.com/rrrrrredy/ai-knowledge-graph) from industry reports, work on AI talent and job monitoring tools, and maintain research workflows that help agents follow fast-moving AI systems, companies, papers, and people.
 
+I recently open-sourced [Longform Industry Narrative Research](https://github.com/rrrrrredy/longform-industry-narrative-research), an agent skill for turning large source sets, interviews, podcasts, company materials, and counter-narratives into publishable Chinese/English industry research.
+
 I also build private experimental games, using games as a way to explore interaction design, simulation, character behavior, and agent-driven experiences.
 
 Email: `luosongred@gmail.com`
@@ -26,7 +28,7 @@ Stack: Python / TypeScript / JavaScript / Shell / HTML/CSS
 - [SkillOps](https://github.com/rrrrrredy/skillops-paper): a framework for designing, testing, and operating modular skills in personal AI agents.
 - [OpenClaw Skills](https://github.com/rrrrrredy?tab=repositories): installable skills for search, scraping, transcription, monitoring, memory, security, and agent operations.
 - [AI Knowledge Graph](https://github.com/rrrrrredy/ai-knowledge-graph): turning AI industry reports into an interactive ecosystem map.
-- [Longform Industry Narrative Research](https://github.com/rrrrrredy/longform-industry-narrative-research): an agent skill for source-backed longform industry narrative research and publishable Chinese/English articles, packaged in a Codex-compatible format. / 适用于 AI agent 的长篇产业叙事研究 skill，用于资料台账、公司逐个分析和终稿去过程化写作，当前以 Codex-compatible 格式打包。
+- [Longform Industry Narrative Research](https://github.com/rrrrrredy/longform-industry-narrative-research): an agent skill for source-backed longform industry narrative research and publishable Chinese/English articles, packaged in a Codex-compatible format.
 - **Private AI Games**: experimental game systems exploring agents, interaction loops, and simulation-driven experiences.
 
 ## Project Map
