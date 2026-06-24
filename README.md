@@ -67,7 +67,7 @@ Stack: Python / TypeScript / JavaScript / Shell / HTML/CSS
 - [ai-talent-graph](https://github.com/rrrrrredy/ai-talent-graph): academic AI scholar profiling with OpenAlex, arXiv, Semantic Scholar, and ORCID.
 - [ai-talent-radar](https://github.com/rrrrrredy/ai-talent-radar): recruitment-oriented AI talent search combining research, GitHub, and Chinese platforms.
 - [agent-job-monitor](https://github.com/rrrrrredy/agent-job-monitor): daily Agent/LLM job monitoring across major AI companies.
-- [longform-industry-narrative-research](https://github.com/rrrrrredy/longform-industry-narrative-research): agent skill for turning large source sets, interviews, podcasts, company materials, and counter-narratives into clean publishable industry research. / 将大量资料、访谈、播客、公司材料和反叙事整理为可发布产业研究长文的通用 agent skill。
+- [longform-industry-narrative-research](https://github.com/rrrrrredy/longform-industry-narrative-research): agent skill for turning large source sets, interviews, podcasts, company materials, and counter-narratives into clean publishable industry research.
 
 ### Creative and Interactive Systems
 
