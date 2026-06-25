@@ -10,7 +10,7 @@ By **agent harness**, I mean the environment around an AI agent: how it searches
 
 Recently, I have been building a practical **SkillOps and agent harness stack**. This includes modular skills for web access, social and content extraction, transcription, research monitoring, persistent memory, skill security scanning, and agent self-audit. I also study or contribute to external agent runtimes such as [OpenClaw](https://github.com/rrrrrredy/openclaw), [OpenCLI](https://github.com/rrrrrredy/opencli), [AgentBox](https://github.com/rrrrrredy/agentbox), and [Hermes Agent](https://github.com/rrrrrredy/hermes-agent).
 
-I also write research papers and methodology notes around agent skills and long-horizon research. My [SkillOps paper](https://github.com/rrrrrredy/skillops-paper) studies how modular skills can be designed, tested, operated, and secured in personal AI agents; [Longform Industry Narrative Research](https://github.com/rrrrrredy/longform-industry-narrative-research) turns that experience into an agent-agnostic workflow for source-backed industry writing.
+I also write research papers and methodology notes around agent skills and long-horizon research. My [SkillOps paper](https://github.com/rrrrrredy/skillops-paper) studies how modular skills can be designed, tested, operated, and secured in personal AI agents; [Longform Industry Research Protocol](https://rrrrrredy.github.io/longform-industry-narrative-research/framework.html#fullmd) turns that experience into an agent-agnostic protocol for source-backed industry research and publishable writing. The source repository is [longform-industry-narrative-research](https://github.com/rrrrrredy/longform-industry-narrative-research).
 
 On the research side, I map and operationalize AI knowledge. I built an [AI knowledge graph](https://github.com/rrrrrredy/ai-knowledge-graph) from industry reports, work on AI talent and job monitoring tools, and maintain research workflows that help agents follow fast-moving AI systems, companies, papers, and people.
 
@@ -28,7 +28,7 @@ Stack: Python / TypeScript / JavaScript / Shell / HTML/CSS
 - [SkillOps](https://github.com/rrrrrredy/skillops-paper): a framework for designing, testing, and operating modular skills in personal AI agents.
 - [OpenClaw Skills](https://github.com/rrrrrredy?tab=repositories): installable skills for search, scraping, transcription, monitoring, memory, security, and agent operations.
 - [AI Knowledge Graph](https://github.com/rrrrrredy/ai-knowledge-graph): turning AI industry reports into an interactive ecosystem map.
-- [Longform Industry Narrative Research](https://github.com/rrrrrredy/longform-industry-narrative-research): an agent skill for source-backed longform industry narrative research and publishable Chinese/English articles, packaged in a Codex-compatible format.
+- [Longform Industry Research Protocol](https://rrrrrredy.github.io/longform-industry-narrative-research/framework.html#fullmd): an agent-agnostic protocol for source-backed longform industry research, staged evidence handling, review loops, and publishable Chinese/English writing. Source: [repo](https://github.com/rrrrrredy/longform-industry-narrative-research).
 - **Private AI Games**: experimental game systems exploring agents, interaction loops, and simulation-driven experiences.
 
 ## Project Map
@@ -37,7 +37,7 @@ Stack: Python / TypeScript / JavaScript / Shell / HTML/CSS
 
 - [skillops-paper](https://github.com/rrrrrredy/skillops-paper): research paper and artifacts for designing, testing, and operating modular skills in personal AI agents.
 - [skill-design-guide](https://github.com/rrrrrredy/skill-design-guide): methodology and QA patterns for building production-grade agent skills.
-- [longform-industry-narrative-research](https://github.com/rrrrrredy/longform-industry-narrative-research): agent skill for turning large source sets, interviews, podcasts, company materials, and counter-narratives into clean publishable industry research.
+- [Longform Industry Research Protocol](https://rrrrrredy.github.io/longform-industry-narrative-research/framework.html#fullmd): open protocol for longform industry research by AI agents, covering task state, source and claim discipline, staged drafting, subagent review, reader revision, and final prose cleanup. Source: [longform-industry-narrative-research](https://github.com/rrrrrredy/longform-industry-narrative-research).
 
 ### External Runtime Projects I Study and Track
 
