@@ -12,6 +12,8 @@ Recently, I have been building a practical **SkillOps and agent harness stack**.
 
 I also write research papers and methodology notes around agent skills and long-horizon research. My [SkillOps paper](https://github.com/rrrrrredy/skillops-paper) studies how modular skills can be designed, tested, operated, and secured in personal AI agents; [Industry Research Framework](https://rrrrrredy.github.io/industry-research-framework/framework.html#fullmd) turns that experience into an agent-agnostic framework for source-backed industry research and publishable writing. The source repository is [industry-research-framework](https://github.com/rrrrrredy/industry-research-framework).
 
+My latest agent-harness paper, [Thin Harness, Strong Contracts](https://github.com/rrrrrredy/agent-harness-paper), argues that production-oriented agent harnesses should stay thin around model cognition while enforcing strong contracts at system boundaries: tool calls, permissions, state diffs, replay, memory scoping, audit, and human review. The public artifact is archived on Zenodo: [10.5281/zenodo.20907471](https://doi.org/10.5281/zenodo.20907471).
+
 On the research side, I map and operationalize AI knowledge. I built an [AI knowledge graph](https://github.com/rrrrrredy/ai-knowledge-graph) from industry reports, work on AI talent and job monitoring tools, and maintain research workflows that help agents follow fast-moving AI systems, companies, papers, and people.
 
 I also build private experimental games, using games as a way to explore interaction design, simulation, character behavior, and agent-driven experiences.
@@ -25,6 +27,7 @@ Stack: Python / TypeScript / JavaScript / Shell / HTML/CSS
 ## Current Focus
 
 - **AI Agent Harnesses**: tool use, memory, execution, context packaging, safety checks, and evaluation loops for practical agents.
+- [Thin Harness, Strong Contracts](https://github.com/rrrrrredy/agent-harness-paper): a systems preprint and artifact package on production-oriented agent harnesses for stateful AI agents.
 - [SkillOps](https://github.com/rrrrrredy/skillops-paper): a framework for designing, testing, and operating modular skills in personal AI agents.
 - [OpenClaw Skills](https://github.com/rrrrrredy?tab=repositories): installable skills for search, scraping, transcription, monitoring, memory, security, and agent operations.
 - [AI Knowledge Graph](https://github.com/rrrrrredy/ai-knowledge-graph): turning AI industry reports into an interactive ecosystem map.
@@ -35,6 +38,7 @@ Stack: Python / TypeScript / JavaScript / Shell / HTML/CSS
 
 ### Research Papers and Methodology
 
+- [agent-harness-paper](https://github.com/rrrrrredy/agent-harness-paper): paper and supporting artifact for **Thin Harness, Strong Contracts**, defining production-oriented agent harnesses as runtime, evaluation, observability, permission policy, replay, memory scoping, audit, and review infrastructure. Zenodo DOI: [10.5281/zenodo.20907471](https://doi.org/10.5281/zenodo.20907471).
 - [skillops-paper](https://github.com/rrrrrredy/skillops-paper): research paper and artifacts for designing, testing, and operating modular skills in personal AI agents.
 - [skill-design-guide](https://github.com/rrrrrredy/skill-design-guide): methodology and QA patterns for building production-grade agent skills.
 - [Industry Research Framework](https://rrrrrredy.github.io/industry-research-framework/framework.html#fullmd): open framework for longform industry research by AI agents, covering task state, source and claim discipline, depth budgeting, staged drafting, subagent review, reader revision, and final prose cleanup. Source: [industry-research-framework](https://github.com/rrrrrredy/industry-research-framework).
