@@ -12,6 +12,8 @@ Recently, I have been building a practical **SkillOps and agent harness stack**.
 
 I also write research papers and methodology notes around agent skills and long-horizon research. My [SkillOps paper](https://github.com/rrrrrredy/skillops-paper) studies how modular skills can be designed, tested, operated, and secured in personal AI agents; [Industry Research Framework](https://rrrrrredy.github.io/industry-research-framework/framework.html#fullmd) turns that experience into an agent-agnostic framework for source-backed industry research and publishable writing. The source repository is [industry-research-framework](https://github.com/rrrrrredy/industry-research-framework).
 
+[![Industry Research Framework on Product Hunt](https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=industry-research-framework&theme=light)](https://www.producthunt.com/posts/industry-research-framework?utm_source=badge-profile&utm_medium=badge)
+
 My latest agent-harness paper, [Thin Harness, Strong Contracts](https://github.com/rrrrrredy/agent-harness-paper), argues that production-oriented agent harnesses should stay thin around model cognition while enforcing strong contracts at system boundaries: tool calls, permissions, state diffs, replay, memory scoping, audit, and human review. The public artifact is archived on Zenodo: [10.5281/zenodo.20907471](https://doi.org/10.5281/zenodo.20907471).
 
 On the research side, I map and operationalize AI knowledge. I built an [AI knowledge graph](https://github.com/rrrrrredy/ai-knowledge-graph) from industry reports, work on AI talent and job monitoring tools, and maintain research workflows that help agents follow fast-moving AI systems, companies, papers, and people.
