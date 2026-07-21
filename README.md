@@ -2,9 +2,11 @@
 
 *I am the Technical Staff of Myself.*
 
-I am an **AI Agent researcher and engineer** building practical harnesses for agents: the runtime, tool-use, memory, web access, skill execution, context packaging, safety, and evaluation layers that turn agents from demos into working systems.
+I am an **AI Agent researcher and engineer** building practical, evidence-driven harnesses for agents: the runtime, tool-use, memory, web access, skill execution, context packaging, safety, observability, and evaluation layers that turn agents from demos into working systems.
 
 My work sits between **agent research, infrastructure engineering, and hands-on product building**.
+
+My newest open-source project is [BeforeDone](https://github.com/rrrrrredy/beforedone), a local Go CLI and Codex integration that requires fresh, file-bound verifier receipts before a coding agent can declare completion. When evidence is missing, failed, or stale, its Stop Gate asks for one corrective continuation; when a run goes wrong, it reconstructs an incident report from observable events without claiming access to hidden chain-of-thought. Read the [public guide](https://rrrrrredy.github.io/beforedone/guide.html).
 
 By **agent harness**, I mean the environment around an AI agent: how it searches, reads, remembers, uses tools, runs modular skills, audits itself, evaluates outputs, and carries context across sessions. I build these systems directly, then use them to study how agents behave in real workflows.
 
@@ -24,10 +26,11 @@ Email: `luosongred@gmail.com`
 
 X: [@rrrrrredy](https://x.com/rrrrrredy?s=11&t=UpoFMYkQiMDxov1vZTZP1A)
 
-Stack: Python / TypeScript / JavaScript / Shell / HTML/CSS
+Stack: Go / Python / TypeScript / JavaScript / Shell / HTML/CSS
 
 ## Current Focus
 
+- [BeforeDone](https://rrrrrredy.github.io/beforedone/guide.html): a local evidence gate and incident replay toolkit that makes coding agents prove completion with fresh verifier receipts.
 - **AI Agent Harnesses**: tool use, memory, execution, context packaging, safety checks, and evaluation loops for practical agents.
 - [Thin Harness, Strong Contracts](https://github.com/rrrrrredy/agent-harness-paper): a systems preprint and artifact package on production-oriented agent harnesses for stateful AI agents.
 - [SkillOps](https://github.com/rrrrrredy/skillops-paper): a framework for designing, testing, and operating modular skills in personal AI agents.
@@ -37,6 +40,10 @@ Stack: Python / TypeScript / JavaScript / Shell / HTML/CSS
 - **Private AI Games**: experimental game systems exploring agents, interaction loops, and simulation-driven experiences.
 
 ## Project Map
+
+### Agent Reliability and Evidence
+
+- [BeforeDone](https://github.com/rrrrrredy/beforedone): an open-source Go CLI, Codex Stop Hook, plugin, and skills pack for fresh file-bound verification evidence, fail-closed completion gates, and evidence-only incident replay. Website: [rrrrrredy.github.io/beforedone](https://rrrrrredy.github.io/beforedone/).
 
 ### Research Papers and Methodology
 
