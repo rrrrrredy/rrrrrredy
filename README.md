@@ -24,6 +24,8 @@ Email: `luosongred@gmail.com`
 
 X: [@rrrrrredy](https://x.com/rrrrrredy?s=11&t=UpoFMYkQiMDxov1vZTZP1A)
 
+Hugging Face: [@RedinGhost](https://huggingface.co/RedinGhost)
+
 Stack: Go / Python / TypeScript / JavaScript / Shell / HTML/CSS
 
 ## Current Focus
