@@ -6,7 +6,7 @@ I am an **AI Agent researcher and engineer** building practical, evidence-driven
 
 My work sits between **agent research, infrastructure engineering, and hands-on product building**.
 
-My newest open-source project is [BeforeDone](https://github.com/rrrrrredy/beforedone), a local Go CLI and Codex integration that requires fresh, file-bound verifier receipts before a coding agent can declare completion. When evidence is missing, failed, or stale, its Stop Gate asks for one corrective continuation; when a run goes wrong, it reconstructs an incident report from observable events without claiming access to hidden chain-of-thought. Read the [public guide](https://rrrrrredy.github.io/beforedone/guide.html).
+My newest open-source project is [BeforeDone](https://github.com/rrrrrredy/beforedone), a local Go CLI and Codex integration that requires fresh, file-bound verifier receipts before a coding agent can declare completion. When evidence is missing, failed, or stale, its Stop Gate asks for one corrective continuation; when a run goes wrong, it reconstructs an incident report from observable events without claiming access to hidden chain-of-thought. Read the [public guide](https://rrrrrredy.github.io/beforedone/guide.html). Its [empirical technical report and reproducibility artifact](https://github.com/rrrrrredy/beforedone-paper) are archived on Zenodo at [10.5281/zenodo.21766277](https://doi.org/10.5281/zenodo.21766277).
 
 By **agent harness**, I mean the environment around an AI agent: how it searches, reads, remembers, uses tools, runs modular skills, audits itself, evaluates outputs, and carries context across sessions. I build these systems directly, then use them to study how agents behave in real workflows.
 
@@ -30,7 +30,7 @@ Stack: Go / Python / TypeScript / JavaScript / Shell / HTML/CSS
 
 ## Current Focus
 
-- [BeforeDone](https://rrrrrredy.github.io/beforedone/guide.html): a local evidence gate and incident replay toolkit that makes coding agents prove completion with fresh verifier receipts.
+- [BeforeDone](https://rrrrrredy.github.io/beforedone/guide.html): a local evidence gate and incident replay toolkit that makes coding agents prove completion with fresh verifier receipts. The [technical report](https://github.com/rrrrrredy/beforedone-paper) evaluates it against no gate, prompt-only verification, and a stateless Stop Hook.
 - **AI Agent Harnesses**: tool use, memory, execution, context packaging, safety checks, and evaluation loops for practical agents.
 - [Thin Harness, Strong Contracts](https://github.com/rrrrrredy/agent-harness-paper): a systems preprint and artifact package on production-oriented agent harnesses for stateful AI agents.
 - [SkillOps](https://github.com/rrrrrredy/skillops-paper): a framework for designing, testing, and operating modular skills in personal AI agents.
@@ -44,6 +44,7 @@ Stack: Go / Python / TypeScript / JavaScript / Shell / HTML/CSS
 ### Agent Reliability and Evidence
 
 - [BeforeDone](https://github.com/rrrrrredy/beforedone): an open-source Go CLI, Codex Stop Hook, plugin, and skills pack for fresh file-bound verification evidence, fail-closed completion gates, and evidence-only incident replay. Website: [rrrrrredy.github.io/beforedone](https://rrrrrredy.github.io/beforedone/).
+- [beforedone-paper](https://github.com/rrrrrredy/beforedone-paper): empirical technical report and reproducibility artifact for BeforeDone. The frozen 144-run study observed a 0/60 unsupported-completion floor in every condition, so it makes no superiority claim; it reports mechanism, auditability, and verifier cost. Zenodo DOI: [10.5281/zenodo.21766277](https://doi.org/10.5281/zenodo.21766277).
 
 ### Research Papers and Methodology
 
