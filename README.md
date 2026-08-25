@@ -2,99 +2,43 @@
 
 *I am the Technical Staff of Myself.*
 
-I am an **AI Agent researcher and engineer** building practical, evidence-driven harnesses for agents: the runtime, tool-use, memory, web access, skill execution, context packaging, safety, observability, and evaluation layers that turn agents from demos into working systems.
+I am an **AI agent researcher and engineer** building evidence-driven systems around agent memory, completion verification, skill operations, safety, context management, observability, and evaluation.
 
-My work sits between **agent research, infrastructure engineering, and hands-on product building**.
+My work sits between **agent research, infrastructure engineering, and hands-on product building**. I care about systems whose claims can be traced to public artifacts, repeatable checks, or clearly bounded experiments - not just convincing demos.
 
-My newest open-source project is [Agent Memory System](https://github.com/rrrrrredy/agent-memory-system), a local-first, evidence-backed continuous memory system for Codex, Claude Code, and OpenCode. It captures locally available task evidence into an append-only ledger, reconstructs episodes, promotes only reviewed and redacted memory, synchronizes portable memory through private Git, and evaluates whether retrieval improves later work. Raw transcripts remain local, and missing or unobservable reasoning is marked explicitly rather than claimed as complete. A frozen 20-task synthetic capability suite observed 19 wins and 1 tie with retrieved memory, which is bounded capability evidence rather than longitudinal certification. Download [v0.3.0](https://github.com/rrrrrredy/agent-memory-system/releases/tag/v0.3.0), explore the [project website](https://rrrrrredy.github.io/agent-memory-system/), or view the [Hugging Face mirror](https://huggingface.co/spaces/RedinGhost/agent-memory-system).
-
-[BeforeDone](https://github.com/rrrrrredy/beforedone) is a local Go CLI and Codex integration that requires fresh, file-bound verifier receipts before a coding agent can declare completion. When evidence is missing, failed, or stale, its Stop Gate asks for one corrective continuation; when a run goes wrong, it reconstructs an incident report from observable events without claiming access to hidden chain-of-thought. Read the [public guide](https://rrrrrredy.github.io/beforedone/guide.html). Its [empirical technical report and reproducibility artifact](https://github.com/rrrrrredy/beforedone-paper) are archived on Zenodo at [10.5281/zenodo.21766277](https://doi.org/10.5281/zenodo.21766277).
-
-By **agent harness**, I mean the environment around an AI agent: how it searches, reads, remembers, uses tools, runs modular skills, audits itself, evaluates outputs, and carries context across sessions. I build these systems directly, then use them to study how agents behave in real workflows.
-
-Recently, I have been building a practical **SkillOps and agent harness stack**. This includes modular skills for web access, social and content extraction, transcription, research monitoring, persistent memory, skill security scanning, and agent self-audit. I also study or contribute to external agent runtimes such as [OpenClaw](https://github.com/rrrrrredy/openclaw), [OpenCLI](https://github.com/rrrrrredy/opencli), [AgentBox](https://github.com/rrrrrredy/agentbox), and [Hermes Agent](https://github.com/rrrrrredy/hermes-agent).
-
-I also write research papers and methodology notes around agent skills and long-horizon research. My [SkillOps paper](https://github.com/rrrrrredy/skillops-paper) studies how modular skills can be designed, tested, operated, and secured in personal AI agents; [Industry Research Framework](https://rrrrrredy.github.io/industry-research-framework/framework.html#fullmd) turns that experience into an agent-agnostic framework for source-backed industry research and publishable writing. The source repository is [industry-research-framework](https://github.com/rrrrrredy/industry-research-framework).
-
-My latest agent-harness paper, [Thin Harness, Strong Contracts](https://github.com/rrrrrredy/agent-harness-paper), argues that production-oriented agent harnesses should stay thin around model cognition while enforcing strong contracts at system boundaries: tool calls, permissions, state diffs, replay, memory scoping, audit, and human review. The public artifact is archived on Zenodo: [10.5281/zenodo.20907471](https://doi.org/10.5281/zenodo.20907471).
-
-On the research side, I map and operationalize AI knowledge. I built an [AI knowledge graph](https://github.com/rrrrrredy/ai-knowledge-graph) from industry reports, work on AI talent and job monitoring tools, and maintain research workflows that help agents follow fast-moving AI systems, companies, papers, and people.
-
-I also build private experimental games, using games as a way to explore interaction design, simulation, character behavior, and agent-driven experiences.
-
-Email: `luosongred@gmail.com`
-
-X: [@rrrrrredy](https://x.com/rrrrrredy?s=11&t=UpoFMYkQiMDxov1vZTZP1A)
-
-Hugging Face: [@RedinGhost](https://huggingface.co/RedinGhost)
-
-Stack: Go / Python / TypeScript / JavaScript / Shell / HTML/CSS
+[Email](mailto:luosongred@gmail.com) | [X / Twitter](https://x.com/rrrrrredy) | [Hugging Face](https://huggingface.co/RedinGhost)
 
 ## Current Focus
 
-- [Agent Memory System](https://github.com/rrrrrredy/agent-memory-system): local-first, evidence-backed continuous memory for Codex, Claude Code, and OpenCode, with append-only evidence, reviewed portable memory, private Git synchronization, and fail-closed learning evaluation.
-- [BeforeDone](https://rrrrrredy.github.io/beforedone/guide.html): a local evidence gate and incident replay toolkit that makes coding agents prove completion with fresh verifier receipts. The [technical report](https://github.com/rrrrrredy/beforedone-paper) evaluates it against no gate, prompt-only verification, and a stateless Stop Hook.
-- **AI Agent Harnesses**: tool use, memory, execution, context packaging, safety checks, and evaluation loops for practical agents.
-- [Thin Harness, Strong Contracts](https://github.com/rrrrrredy/agent-harness-paper): a systems preprint and artifact package on production-oriented agent harnesses for stateful AI agents.
-- [SkillOps](https://github.com/rrrrrredy/skillops-paper): a framework for designing, testing, and operating modular skills in personal AI agents.
-- [OpenClaw Skills](https://github.com/rrrrrredy?tab=repositories): installable skills for search, scraping, transcription, monitoring, memory, security, and agent operations.
-- [AI Knowledge Graph](https://github.com/rrrrrredy/ai-knowledge-graph): turning AI industry reports into an interactive ecosystem map.
-- [Industry Research Framework](https://rrrrrredy.github.io/industry-research-framework/framework.html#fullmd): an agent-agnostic framework for source-backed longform industry research, staged evidence handling, depth budgeting, review loops, and publishable Chinese/English writing. Source: [repo](https://github.com/rrrrrredy/industry-research-framework).
-- **Private AI Games**: experimental game systems exploring agents, interaction loops, and simulation-driven experiences.
+| Area | What I build | Public evidence |
+| --- | --- | --- |
+| Agent memory and continuity | Local-first memory reconstructed from observable task evidence, with reviewed and redacted promotion instead of automatic transcript dumping. | [Agent Memory System](https://github.com/rrrrrredy/agent-memory-system) |
+| Completion evidence and replay | Fresh, file-bound verification receipts; fail-closed completion gates; and incident reconstruction from observable events. | [BeforeDone](https://github.com/rrrrrredy/beforedone) |
+| Skill operations and safety | Methods and tools for designing, testing, operating, and statically scanning reusable agent skills. | [SkillOps](https://github.com/rrrrrredy/skillops-paper), [Skill Security Guard](https://github.com/rrrrrredy/skill-security-guard) |
+| Source-backed research workflows | Staged evidence collection, claim discipline, review loops, and publishable long-form research. | [Industry Research Framework](https://github.com/rrrrrredy/industry-research-framework) |
 
-## Project Map
+## Selected Work
 
-### Agent Reliability and Evidence
+| Project | Why it matters | Explore |
+| --- | --- | --- |
+| **Agent Memory System** | A local-first, cross-agent memory layer that keeps raw evidence local, builds an append-only task ledger, and promotes only reviewed portable memory. Missing or unobservable reasoning is marked explicitly rather than invented. | [Repository](https://github.com/rrrrrredy/agent-memory-system) / [Website](https://rrrrrredy.github.io/agent-memory-system/) / [Hugging Face](https://huggingface.co/spaces/RedinGhost/agent-memory-system) |
+| **BeforeDone** | A Go CLI and Codex integration that requires current verifier evidence before an agent declares completion. It also supports evidence-only incident replay without claiming access to hidden chain-of-thought. | [Repository](https://github.com/rrrrrredy/beforedone) / [Guide](https://rrrrrredy.github.io/beforedone/guide.html) / [Technical report](https://doi.org/10.5281/zenodo.21766277) |
+| **Industry Research Framework** | An agent-agnostic workflow for source-backed industry research: task state, source and claim discipline, depth budgeting, staged drafting, adversarial review, and publication cleanup. | [Repository](https://github.com/rrrrrredy/industry-research-framework) / [Read the framework](https://rrrrrredy.github.io/industry-research-framework/framework.html#fullmd) |
+| **SkillOps** | A practical framework for treating modular skills as operated software: design contracts, tests, evaluation, versioning, safety, and lifecycle management. | [Repository](https://github.com/rrrrrredy/skillops-paper) / [Paper](https://doi.org/10.5281/zenodo.20061198) |
+| **Skill Security Guard** | A static security scanner for agent skills, with A-F risk ratings, safe archive scanning, CI-tested rules, and machine-readable findings. | [Repository](https://github.com/rrrrrredy/skill-security-guard) / [Releases](https://github.com/rrrrrredy/skill-security-guard/releases) |
 
-- [Agent Memory System](https://github.com/rrrrrredy/agent-memory-system): an MIT-licensed Go CLI and cross-agent memory layer that keeps raw task evidence local, promotes only reviewed and redacted memory, synchronizes a portable representation through private Git, and ships reproducible evaluation and release receipts. Project site: [GitHub Pages](https://rrrrrredy.github.io/agent-memory-system/). Mirror: [Hugging Face](https://huggingface.co/spaces/RedinGhost/agent-memory-system).
-- [BeforeDone](https://github.com/rrrrrredy/beforedone): an open-source Go CLI, Codex Stop Hook, plugin, and skills pack for fresh file-bound verification evidence, fail-closed completion gates, and evidence-only incident replay. Website: [rrrrrredy.github.io/beforedone](https://rrrrrredy.github.io/beforedone/).
-- [beforedone-paper](https://github.com/rrrrrredy/beforedone-paper): empirical technical report and reproducibility artifact for BeforeDone. The frozen 144-run study observed a 0/60 unsupported-completion floor in every condition, so it makes no superiority claim; it reports mechanism, auditability, and verifier cost. Zenodo DOI: [10.5281/zenodo.21766277](https://doi.org/10.5281/zenodo.21766277).
+## Research and Applied Systems
 
-### Research Papers and Methodology
+- [**Thin Harness, Strong Contracts**](https://github.com/rrrrrredy/agent-harness-paper) studies production-oriented agent harnesses as runtime, permission, state, replay, memory, evaluation, audit, and human-review infrastructure. [Preprint and artifact](https://doi.org/10.5281/zenodo.20907471).
+- [**AI Knowledge Graph**](https://github.com/rrrrrredy/ai-knowledge-graph) and related radar projects turn reports and public data into explorable maps and monitoring workflows.
+- [**EV + pet road-trip planning**](https://github.com/rrrrrredy/electric-pet-roadtrip-planner) is an applied experiment in constraint-aware planning, evidence freshness, fallback routes, and user-facing agent outputs.
 
-- [agent-harness-paper](https://github.com/rrrrrredy/agent-harness-paper): paper and supporting artifact for **Thin Harness, Strong Contracts**, defining production-oriented agent harnesses as runtime, evaluation, observability, permission policy, replay, memory scoping, audit, and review infrastructure. Zenodo DOI: [10.5281/zenodo.20907471](https://doi.org/10.5281/zenodo.20907471).
-- [skillops-paper](https://github.com/rrrrrredy/skillops-paper): research paper and artifacts for designing, testing, and operating modular skills in personal AI agents.
-- [skill-design-guide](https://github.com/rrrrrredy/skill-design-guide): methodology and QA patterns for building production-grade agent skills.
-- [Industry Research Framework](https://rrrrrredy.github.io/industry-research-framework/framework.html#fullmd): open framework for longform industry research by AI agents, covering task state, source and claim discipline, depth budgeting, staged drafting, subagent review, reader revision, and final prose cleanup. Source: [industry-research-framework](https://github.com/rrrrrredy/industry-research-framework).
+## Working Principles
 
-### External Runtime Projects I Study and Track
+- Bind important claims to observable evidence.
+- Use deterministic checks for deterministic behavior, and model evaluations where behavior is genuinely stochastic.
+- Keep sensitive raw evidence local; publish reviewed, redacted, and reproducible artifacts.
+- Treat measured results as bounded evidence, not universal proof of efficacy.
+- Preserve real failures and user corrections as future regression cases.
 
-- [AgentBox](https://github.com/rrrrrredy/agentbox): external runtime project I study for portable packaging of agent settings, skills, memory, and session context.
-- [OpenClaw](https://github.com/rrrrrredy/openclaw): external agent-runtime project I study and contribute to around personal AI agent runtime design.
-- [OpenCLI](https://github.com/rrrrrredy/opencli): external project I study for universal CLI access to websites, Electron apps, and local tools.
-- [Hermes Agent](https://github.com/rrrrrredy/hermes-agent): external project I study around self-improving agent systems.
-- [web-access](https://github.com/rrrrrredy/web-access): external web-access project I study for browser automation, web search, and direct HTTP access.
-
-### SkillOps, Memory, and Safety
-
-- [persistent-memory](https://github.com/rrrrrredy/persistent-memory): long-term agent memory through daily logs, structured facts, and compact session memory.
-- [skill-security-guard](https://github.com/rrrrrredy/skill-security-guard): security scanner for agent skills, including prompt-injection and unsafe-code checks.
-- [agent-self-audit](https://github.com/rrrrrredy/agent-self-audit): health checks for agent memory, skills, cron jobs, config, and runtime state.
-- [lobster-guard](https://github.com/rrrrrredy/lobster-guard): identity and safety guardrails for agent behavior in group-chat settings.
-
-### Information Access Harness
-
-- [all-net-search-read](https://github.com/rrrrrredy/all-net-search-read): cross-platform search and content extraction across WeChat, Xiaohongshu, X, YouTube, Reddit, Bilibili, and Weibo.
-- [x-twitter-scraper](https://github.com/rrrrrredy/x-twitter-scraper): public X/Twitter profile, timeline, and full-tweet extraction without login.
-- [wechat-reader](https://github.com/rrrrrredy/wechat-reader): WeChat Official Account article reading and Markdown conversion.
-- [weibo-scraper](https://github.com/rrrrrredy/weibo-scraper): public Weibo content extraction without login.
-- [bilibili-video](https://github.com/rrrrrredy/bilibili-video): Bilibili video download and local transcription.
-- [xiaoyuzhou-podcast](https://github.com/rrrrrredy/xiaoyuzhou-podcast): Xiaoyuzhou podcast fetching, local transcription, and structured summarization.
-- [book-hunter](https://github.com/rrrrrredy/book-hunter): ebook discovery across Z-Library and Anna's Archive metadata sources.
-
-### AI Research and Intelligence Systems
-
-- [ai-knowledge-graph](https://github.com/rrrrrredy/ai-knowledge-graph): interactive AI ecosystem graph built from industry reports and research material.
-- [ai-info-radar](https://github.com/rrrrrredy/ai-info-radar): AI news and resource discovery across media, blogs, podcasts, books, and social platforms.
-- [ai-talent-graph](https://github.com/rrrrrredy/ai-talent-graph): academic AI scholar profiling with OpenAlex, arXiv, Semantic Scholar, and ORCID.
-- [ai-talent-radar](https://github.com/rrrrrredy/ai-talent-radar): recruitment-oriented AI talent search combining research, GitHub, and Chinese platforms.
-- [agent-job-monitor](https://github.com/rrrrrredy/agent-job-monitor): daily Agent/LLM job monitoring across major AI companies.
-
-### Creative and Interactive Systems
-
-- Private AI games: experimental game systems exploring agents, interaction loops, simulation, and character behavior.
-- [AI Personality Test](https://github.com/rrrrrredy/ai-personality-test): a lightweight AI-culture quiz and deployable static web experience.
-- [NanoBanana-PPT-Skills](https://github.com/rrrrrredy/NanoBanana-PPT-Skills): AI-generated PPT visuals, transitions, and video presentation workflows.
-- [Youtube-clipper-skill](https://github.com/rrrrrredy/Youtube-clipper-skill): semantic video clipping, bilingual subtitles, and content repackaging workflows.
-
-This account is where I research and build the harness around AI agents: how they search, read, remember, use tools, run skills, evaluate outputs, and operate safely across real workflows.
+**Stack:** Go | Python | TypeScript | JavaScript | Shell | HTML/CSS
