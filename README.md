@@ -31,7 +31,6 @@ My work sits between **agent research, infrastructure engineering, and hands-on 
 
 - [**Thin Harness, Strong Contracts**](https://github.com/rrrrrredy/agent-harness-paper) studies production-oriented agent harnesses as runtime, permission, state, replay, memory, evaluation, audit, and human-review infrastructure. [Preprint and artifact](https://doi.org/10.5281/zenodo.20907471).
 - [**AI Knowledge Graph**](https://github.com/rrrrrredy/ai-knowledge-graph) and related radar projects turn reports and public data into explorable maps and monitoring workflows.
-- [**EV + pet road-trip planning**](https://github.com/rrrrrredy/electric-pet-roadtrip-planner) is an applied experiment in constraint-aware planning, evidence freshness, fallback routes, and user-facing agent outputs.
 
 ## Working Principles
 
