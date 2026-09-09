@@ -36,7 +36,7 @@ My work sits between **agent research, infrastructure engineering, and hands-on 
 - **[Context Continuity](https://github.com/rrrrrredy/context-continuity):** preserves task invariants across compaction, resume, and handoff without treating reconstructed context as user authority.
 - **Completion and execution reliability:** fresh, file-bound completion evidence plus contract checks before high-impact actions. [BeforeDone](https://github.com/rrrrrredy/beforedone) · [Execution Fidelity Guard](https://github.com/rrrrrredy/execution-fidelity-guard) · [DeepSeek execution adapter](https://github.com/rrrrrredy/dsh-execution-fidelity-guard)
 - **Skill lifecycle and safety:** an evidence-gated path from selected runs to one reviewable Skill change, paired with static scanning for risky Skill content and archives. [Experience to Skill](https://github.com/rrrrrredy/experience-to-skill) · [Skill Security Guard](https://github.com/rrrrrredy/skill-security-guard)
-- **[Industry Research Framework](https://github.com/rrrrrredy/industry-research-framework):** an agent-agnostic workflow for source-backed industry research, claim discipline, staged drafting, adversarial review, and publication cleanup. [Read the framework](https://rrrrrredy.github.io/industry-research-framework/framework.html#fullmd)
+- **[Research Toolkit / 研究工具箱](https://github.com/rrrrrredy/research-toolkit):** methods, workflows, and checks for AI-assisted research reports, from questions and source analysis to section-by-section writing, review, and revision. [Project guide](https://rrrrrredy.github.io/research-toolkit/)
 
 </details>
 
