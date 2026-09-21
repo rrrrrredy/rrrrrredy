@@ -37,6 +37,7 @@ My work sits between **agent research, infrastructure engineering, and hands-on 
 - **Completion and execution reliability:** fresh, file-bound completion evidence plus contract checks before high-impact actions. [BeforeDone](https://github.com/rrrrrredy/beforedone) · [Execution Fidelity Guard](https://github.com/rrrrrredy/execution-fidelity-guard) · [DeepSeek execution adapter](https://github.com/rrrrrredy/dsh-execution-fidelity-guard)
 - **Skill lifecycle and safety:** an evidence-gated path from selected runs to one reviewable Skill change, paired with static scanning for risky Skill content and archives. [Experience to Skill](https://github.com/rrrrrredy/experience-to-skill) · [Skill Security Guard](https://github.com/rrrrrredy/skill-security-guard)
 - **[Research Toolkit / 研究工具箱](https://github.com/rrrrrredy/research-toolkit):** methods, workflows, and checks for AI-assisted research reports, from questions and source analysis to section-by-section writing, review, and revision. [Project guide](https://rrrrrredy.github.io/research-toolkit/)
+- **[Editorial Guard](https://github.com/rrrrrredy/editorial-guard):** Chinese style editing and delivery-language validation with shared fidelity checks, two project Skills, and two model-annotated benchmarks. Disagreements and negative results are retained; the two-family core comparison does not establish general editing benefits. [Project site](https://rrrrrredy.github.io/editorial-guard/) · [Hugging Face](https://huggingface.co/spaces/RedinGhost/editorial-guard)
 
 </details>
 
