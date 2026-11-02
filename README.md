@@ -14,6 +14,8 @@ My work sits between **agent research, infrastructure engineering, and hands-on 
 - **[Agent Memory System](https://github.com/rrrrrredy/agent-memory-system)** is a local-first, cross-agent memory layer that keeps raw evidence local and promotes only reviewed, redacted, portable memory. [Agent Memory live site](https://rrrrrredy.github.io/agent-memory-system/) · [Agent Memory on Hugging Face](https://huggingface.co/spaces/RedinGhost/agent-memory-system)
 - **[Governed Skill Evolution](https://github.com/rrrrrredy/governed-skill-evolution)** compares no Wiki, flat history, and persistent Wiki in a prospective ablation and cross-model transfer study. Persistence reduced input tokens and final-rule length in this setting, but did not improve mean task quality. [Governed Skill Evolution PDF](https://github.com/rrrrrredy/governed-skill-evolution/releases/download/v1.0.0/governed-skill-evolution-paper-v1.0.0.pdf) · [Governed Skill Evolution DOI](https://doi.org/10.5281/zenodo.22240411)
 
+- **[Codex → Obsidian](https://github.com/rrrrrredy/codex-obsidian)** turns Codex conversations, prompts, and tool traces into a linked Obsidian archive, with daily summaries, project records, and reusable methods. Built around local Markdown and official Obsidian Sync.
+
 ## More work
 
 <details>
